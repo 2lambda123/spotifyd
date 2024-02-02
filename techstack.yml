@@ -1,0 +1,166 @@
+repo_name: 2lambda123/spotifyd
+report_id: 5f50a28c75e05c886700e0b2147afaf2
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:14:14+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Sven Lechner
+  last_updated_on: 2020-01-24 19:50:42.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/2lambda123/spotifyd
+  detection_source: Repo Metadata
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Jay
+  last_updated_on: 2020-09-27 15:24:49.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: eladyn
+  last_updated_on: 2023-03-27 20:15:03.000000000 Z
+- name: Ctop
+  description: Commandline monitoring for containers
+  website_url: http://ctop.sh/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/6731/favicon.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/spotifyd
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/.github/workflows/cd.yml
+  detection_source: ".github/workflows/cd.yml"
+  last_updated_by: Sven Lechner
+  last_updated_on: 2019-09-22 09:46:29.000000000 Z
+- name: Hex
+  description: Package manager for the Erlang ecosystem
+  website_url: https://hex.pm/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/5210/6621265.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: Fern
+  description: SDKs and documentation for your API
+  website_url: https://www.buildwithfern.com/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/48768/default_af09d1d21883ef6c715dfe6b82c10bbea88a2bf6.png
+  detection_source_url: https://github.com/2lambda123/spotifyd/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Pontus Persson
+  last_updated_on: 2015-07-20 16:02:04.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/spotifyd
+  detection_source: Repo Metadata
